@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Lato:wght@400;700&family=Roboto&display=swap');
+
+body{
+    background-color: rgb(234, 232, 229);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+}
+
+/* header */
+header {
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+header h1 {
+    padding-top: 50px;
+    padding-left: 180px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* navbar */
+.container {
+    background-color: blue;
+}
+
+.navflex {
+    background-color: rgb(230, 229, 227);
+    display: flex;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.orange{
+    color: orangered;
+}
+
+.black{
+    color: black;
+}
+
+.navflex a{
+    text-decoration: none;
+}
+
+.navflex a:hover{
+    /* background-color: #00adb5; */
+    color: #0e939a;
+}
+
+.navflex li {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.mainbody {
+    background-color: aliceblue;
+    width: 75%;
+    margin-left: 185px;
+    margin-right: 150px;
+
+    height: 1270px;
+}
+
+/* background image */
+.backimg {
+    display: flex;
+    justify-content: center;
+    /* background-color: aliceblue; */
+}
+
+
+.backimg img {
+    width: 1135px;
+    height: 400px;
+}
+
+/* content part */
+
+
+.men {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    width: 25%;
+    height: 250px;
+    font-size: 1.3em;
+    margin-right: 15px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.women {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    width: 25%;
+    height: 250px;
+    font-size: 1.3em;
+    margin-right: 8px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.kids {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    width: 25%;
+    height: 250px;
+    font-size: 1.3em;
+    /* margin-right: 20px; */
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content button {
+    background-color: black;
+    color: white;
+    width: 130px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.belowbody {
+    /* border: 1px solid black; */
+    margin-top: 90px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 50px;
+
+    width: 50%;
+}
+
+mark {
+    background-color: aliceblue;
+    color: orangered;
+}
+
+.belowbody h1 {
+    font-size: 2.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.belowbody p {
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+
+.belowbody a{
+    /* text-decoration: dotted; */
+    color: black;
+}
+
+.belowpara{
+    margin-top: 8px;
+}
+
+.belowlist{
+    margin-top: 10px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(188, 155, 155);
+    height: 120px;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footericon{
+    display: flex;
+    justify-content: center;
+}
+
+.footericon li{
+    margin:0 15px;
+    margin-top: 10px;
+    
+}
+
+.footericon li a{
+    color: black;
+}
+
+.footericon li:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.youtube:hover {
+    color: red;
+}
+
+.facebook:hover {
+    color: blue;
+}
+
+.instagram:hover {
+    color: #e11d74;
+}
+
+.twitter:hover {
+    color: #00adb5;
+}
+
+.copyright{
+    margin-top: 10px;
+}
